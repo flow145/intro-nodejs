@@ -16,12 +16,14 @@
     "format": "biome format --reporter=summary",
     "format:fix": "npm run format -- --write",
     "check": "biome check --reporter=summary",
-    "check:fix": "npm run check -- --write"
+    "check:fix": "npm run check -- --write",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.9",
     "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^20.5.0",
+    "jest": "^30.3.0",
     "lefthook": "^2.1.4"
   },
   "dependencies": {

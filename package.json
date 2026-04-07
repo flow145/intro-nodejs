@@ -27,6 +27,7 @@
     "lefthook": "^2.1.4"
   },
   "dependencies": {
+    "open": "^11.0.0",
     "yargs": "^18.0.0"
   }
 }

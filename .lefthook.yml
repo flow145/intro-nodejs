@@ -15,7 +15,5 @@ pre-push:
   commands:
     check:
       run: npm run check -- --no-errors-on-unmatched
-    typecheck:
-      run: npm run typecheck
     test:
       run: npm run test

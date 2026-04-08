@@ -1,6 +1,6 @@
 {
   "name": "intro-nodejs",
-  "description": "",
+  "description": "A simple CLI note-taking app - a course project for \"Introduction to Node.js v3\"",
   "version": "1.0.0-alpha.0",
   "private": true,
   "license": "MIT",
